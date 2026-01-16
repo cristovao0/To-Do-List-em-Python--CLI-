@@ -1,7 +1,7 @@
 from pathlib import Path
 import utilidades
 
-tarefas = Path(r'C:\Users\crist\Desktop\Ensino\TO DO List\tarefas.txt')
+tarefas = Path(r'TO DO List\To-Do-List-em-Python--CLI-\tarefas.txt')
 
 def checar_arquivo():
     if not tarefas.exists():
